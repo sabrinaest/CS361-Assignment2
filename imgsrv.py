@@ -12,4 +12,4 @@ while True:
             img_file_num = img_file_num % len(os.listdir(cs361_img_folder))
             img_service_file.seek(0)
             img_service_file.truncate()
-            img_service_file.write(f'C:\\Users\\Sabrina\\PycharmProjects\\CS361-Assignment2\\animal_crossing{img_file_num}.jpg')
+            img_service_file.write(f'C:\\Users\\Sabrina\\PycharmProjects\\CS361-Assignment2\\animal_crossing\\{img_file_num}.png')
